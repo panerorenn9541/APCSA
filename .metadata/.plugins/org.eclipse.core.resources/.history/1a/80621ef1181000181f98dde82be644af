@@ -1,0 +1,35 @@
+//© A+ Computer Science  -  www.apluscompsci.com
+//Name -
+//Date -
+//Class -
+//Lab  -
+
+import static java.lang.System.*;
+
+public class Lab08g
+{
+	public static void main ( String[] args )
+	{
+		//add test cases
+		LoopStats First = new LoopStats();
+		First.setNums(1, 5);
+		First.getEvenCount();
+		First.getOddCount();
+		First.getTotal();
+		First.toString();
+		
+		LoopStats Second = new LoopStats();
+		Second.setNums(2, 8);
+		Second.getEvenCount();
+		Second.getOddCount();
+		Second.getTotal();
+		Second.toString();
+		
+		LoopStats Third = new LoopStats();
+		Third.setNums(5, 15);
+		Third.getEvenCount();
+		Third.getOddCount();
+		Third.getTotal();
+		Third.toString();
+	}
+}

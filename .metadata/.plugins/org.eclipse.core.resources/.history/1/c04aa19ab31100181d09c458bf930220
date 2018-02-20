@@ -1,0 +1,32 @@
+//© A+ Computer Science  -  www.apluscompsci.com
+//Name -
+//Date -
+//Class -
+//Lab  -
+
+import static java.lang.System.*;
+import java.lang.Math;
+
+public class Lab08i
+{
+	public static void main ( String[] args )
+	{
+		Prime First = new Prime();
+		First.setPrime(24);
+		First.isPrime();
+		System.out.println(First.toString());
+		
+		Prime Second = new Prime();
+		Second.setPrime(7);
+		Second.isPrime();
+		System.out.println(Second.toString());
+		//add test cases
+		
+		
+		
+		
+		
+		
+		
+	}	
+}

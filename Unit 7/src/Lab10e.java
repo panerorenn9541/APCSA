@@ -11,10 +11,8 @@ public class Lab10e
 {
 	public static void main(String args[])
 	{
-		Scanner keyboard = new Scanner(System.in);
-		char response;
-
-
+		GuessingGame First = new GuessingGame(0);
+		First.toString();
 
 
 

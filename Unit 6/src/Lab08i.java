@@ -14,47 +14,47 @@ public class Lab08i
 		Prime First = new Prime();
 		First.setPrime(24);
 		First.isPrime();
-		System.out.println(First.toString());
+		out.println(First.toString());
 		
 		Prime Second = new Prime();
 		Second.setPrime(7);
 		Second.isPrime();
-		System.out.println(Second.toString());
+		out.println(Second.toString());
 		
 		Prime Third = new Prime();
 		Third.setPrime(100);
 		Third.isPrime();
-		System.out.println(Third.toString());
+		out.println(Third.toString());
 		
 		Prime Fourth = new Prime();
 		Fourth.setPrime(113);
 		Fourth.isPrime();
-		System.out.println(Fourth.toString());
+		out.println(Fourth.toString());
 		
 		Prime Fifth = new Prime();
 		Fifth.setPrime(65535);
 		Fifth.isPrime();
-		System.out.println(Fifth.toString());
+		out.println(Fifth.toString());
 		
 		Prime Sixth = new Prime();
 		Sixth.setPrime(2);
 		Sixth.isPrime();
-		System.out.println(Sixth.toString());
+		out.println(Sixth.toString());
 		
 		Prime Seventh = new Prime();
 		Seventh.setPrime(7334);
 		Seventh.isPrime();
-		System.out.println(Seventh.toString());
+		out.println(Seventh.toString());
 		
 		Prime Eighth = new Prime();
 		Eighth.setPrime(7919);
 		Eighth.isPrime();
-		System.out.println(Eighth.toString());
+		out.println(Eighth.toString());
 		
 		Prime Ninth = new Prime();
 		Ninth.setPrime(1115125003);
 		Ninth.isPrime();
-		System.out.println(Ninth.toString());
+		out.println(Ninth.toString());
 		//add test cases
 		
 		

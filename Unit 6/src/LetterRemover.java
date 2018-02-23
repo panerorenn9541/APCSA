@@ -34,15 +34,15 @@ public class LetterRemover
 
 	public String removeLetters()
 	{
-		String cleaned=sentence;
-		int loc = sentence.indexOf(lookFor);
-		while (loc != -1)
+		String cleaned="";
+		for(int i = 0; i<sentence.length(); i++)
+		{
+			if (sentence.charAt(i) == 97)
 			{
-				cleaned = sentence.substring(0, loc) + sentence.substring(loc+1);
-				loc = loc-1;
+				sentence.
 			}
-
-
+				
+		}
 
 		return cleaned;
 	}

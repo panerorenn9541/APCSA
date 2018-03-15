@@ -123,6 +123,29 @@ public class Class
 		return output;
 	}
 	
+	public String sortStudents()
+	{
+		for (int i = 0; i<studentList.length; i++)
+		{
+			for (int k = i+1; k<studentList.length; k++)
+			{
+				if(studentList[i].compareTo(studentList[k]) == 1)
+				{
+					Student holder = studentList[i];
+					studentList[i] = studentList[k];
+					studentList[k] = holder;
+				}
+			}
+		}
+		String sorted = "";
+		for (int n = 0; n<studentList.length;n++)
+		{
+			sorted = sorted + studentList[n].toString() + "\t" + studentList[n].getAverage() + "\n";
+		}
+		return sorted;
+	}
+
+	
 
 	public String toString()
 	{
